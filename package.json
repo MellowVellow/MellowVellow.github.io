@@ -1,5 +1,6 @@
 {
   "name": "front-end",
+  "homepage": "https://mellowvellow.github.io/MellowVellow.github.io",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,9 +8,11 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gp-pages -d list"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
